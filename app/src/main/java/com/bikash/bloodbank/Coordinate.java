@@ -1,7 +1,7 @@
 package com.bikash.bloodbank;
 
 /**
- * Created by user on 1/1/2017.
+
  */
 
 public class Coordinate {

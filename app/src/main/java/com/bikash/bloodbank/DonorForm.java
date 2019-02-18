@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 
@@ -34,7 +35,7 @@ public class DonorForm extends AppCompatActivity {
 
         cityChoice = (Spinner) findViewById(R.id.dropdownCity);
 
-        String[] citis = new String[]{"Barisal","Chittagong", "Dhaka", "Mymensingh","Khulna", "Rajshahi", "Rangpur", "Sylhet"};
+        String[] citis = new String[]{"Mumbai","Delhi", "Hyderabad", "Kolkata","Chennai", "Rajasthan", "Bangalore", "Pune"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, citis);
         cityChoice.setAdapter(adapter);
 
@@ -51,12 +52,33 @@ public class DonorForm extends AppCompatActivity {
         Save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = Name.getText().toString();
-                String city = cityChoice.getSelectedItem().toString();
-                String group = groupChoice.getSelectedItem().toString();
-                String mobile = Mobile.getText().toString();
-                String lat = MainActivity.lat.toString();
-                String lng = MainActivity.lng.toString();
+
+
+
+                if(Name.getText().toString().trim().length()==0){
+                    Name.setError("Name not valid");
+                    Name.requestFocus();
+                }
+
+                if(Mobile.getText().toString().trim().length()==0){
+                    Mobile.setError("Mobile number not valid");
+                    Mobile.requestFocus();
+                }
+
+                else
+                {
+                    Toast.makeText(getApplicationContext(),"Record Saved Successfully",Toast.LENGTH_LONG).show();
+                }
+
+                    String name = Name.getText().toString();
+                    String city = cityChoice.getSelectedItem().toString();
+                    String group = groupChoice.getSelectedItem().toString();
+                    String mobile = Mobile.getText().toString();
+                    String lat = MainActivity.lat.toString();
+                    String lng = MainActivity.lng.toString();
+
+
+              //  Toast.makeText(getApplicationContext(),"Incorrect Details ",Toast.LENGTH_LONG).show();
 
                 Donor donor = new Donor(name,mobile,group,city,lat, lng);
                 DatabaseReference myRef = database.getReference("donors");

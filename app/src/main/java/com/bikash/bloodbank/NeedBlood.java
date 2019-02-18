@@ -22,7 +22,7 @@ public class NeedBlood extends AppCompatActivity {
         groupChoice = (Spinner) findViewById(R.id.needBlood);
         need = (Button) findViewById(R.id.startSearch);
 
-        String[] citis = new String[]{"Barisal","Chittagong", "Dhaka", "Mymensingh","Khulna", "Rajshahi", "Rangpur", "Sylhet"};
+        String[] citis = new String[]{"Mumbai","Delhi", "Hyderabad", "Kolkata","Chennai", "Rajasthan", "Bangalore", "Pune"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, citis);
         cityChoice.setAdapter(adapter);
 
@@ -42,6 +42,9 @@ public class NeedBlood extends AppCompatActivity {
                 intent.putExtra("group", group);
                 intent.putExtra("city", city);
                 startActivity(intent);
+
+
+
             }
         });
 

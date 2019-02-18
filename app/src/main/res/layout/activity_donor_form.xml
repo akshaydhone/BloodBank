@@ -52,7 +52,7 @@
                 android:background="@drawable/input_background"
                 android:padding="5dp"
                 android:id="@+id/edt_name"
-                android:hint="Bikash"
+                android:hint="Akash vijay patil"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content" />
@@ -142,12 +142,12 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:background="@drawable/button_background"
-                android:textColor="@color/colorPrimary"
                 android:id="@+id/btn_saveDonor"
-                android:text="Continue"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="Save"
+                android:textColor="@color/colorPrimary" />
 
 
         </LinearLayout>
