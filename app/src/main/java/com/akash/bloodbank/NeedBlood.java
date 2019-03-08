@@ -1,4 +1,4 @@
-package com.bikash.bloodbank;
+package com.akash.bloodbank;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

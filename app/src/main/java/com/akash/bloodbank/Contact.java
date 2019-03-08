@@ -1,4 +1,4 @@
-package com.bikash.bloodbank;
+package com.akash.bloodbank;
 
 public class Contact {
 

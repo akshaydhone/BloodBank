@@ -1,4 +1,4 @@
-package com.bikash.bloodbank;
+package com.akash.bloodbank;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 
 import java.util.ArrayList;
 
-import static com.bikash.bloodbank.MainActivity.database;
+import static com.akash.bloodbank.MainActivity.database;
 
 public class DonorList extends AppCompatActivity {
     String city;

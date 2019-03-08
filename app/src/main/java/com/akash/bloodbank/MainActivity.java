@@ -1,4 +1,4 @@
-package com.bikash.bloodbank;
+package com.akash.bloodbank;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

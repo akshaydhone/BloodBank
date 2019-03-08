@@ -1,4 +1,4 @@
-package com.bikash.bloodbank;
+package com.akash.bloodbank;
 
 import android.renderscript.Double2;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 
-import static com.bikash.bloodbank.MainActivity.database;
+import static com.akash.bloodbank.MainActivity.database;
 
 public class DonorForm extends AppCompatActivity {
     Spinner cityChoice;

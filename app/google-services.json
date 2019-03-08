@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "1036804361664",
-    "firebase_url": "https://blood-bank-e4c43.firebaseio.com",
-    "project_id": "blood-bank-e4c43",
-    "storage_bucket": "blood-bank-e4c43.appspot.com"
+    "project_number": "1065052526965",
+    "firebase_url": "https://bloodbank-f93a3.firebaseio.com",
+    "project_id": "bloodbank-f93a3",
+    "storage_bucket": "bloodbank-f93a3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1036804361664:android:80a49d7fead3ebbc",
+        "mobilesdk_app_id": "1:1065052526965:android:59cbd31b3fa7a26b",
         "android_client_info": {
-          "package_name": "com.bikash.bloodbank"
+          "package_name": "com.akash.bloodbank"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1036804361664-ead490ksn82rfh1pea5qhoputheuje7r.apps.googleusercontent.com",
+          "client_id": "1065052526965-lq0dn0ngt3gatgt5stmrhmtgfni93abi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.bikash.bloodbank",
+            "package_name": "com.akash.bloodbank",
             "certificate_hash": "dd83c3f21bce4682175b535457982196093c1c7b"
           }
         },
         {
-          "client_id": "1036804361664-mm102vu3pnpje6m28s28h7fdoq1mu0oe.apps.googleusercontent.com",
+          "client_id": "1065052526965-3e7nsolojmmshgilmtv4jv4raldqf66d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAJ-lbNYu4Ir_RDFIjlLBbo1AyCFOS6HxM"
+          "current_key": "AIzaSyCdCLSnAWwko0r4V0jbmeRriVaTeWgHqfc"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1036804361664-mm102vu3pnpje6m28s28h7fdoq1mu0oe.apps.googleusercontent.com",
+              "client_id": "1065052526965-3e7nsolojmmshgilmtv4jv4raldqf66d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

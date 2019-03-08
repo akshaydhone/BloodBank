@@ -1,4 +1,4 @@
-package com.bikash.bloodbank;
+package com.akash.bloodbank;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
